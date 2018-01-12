@@ -38,7 +38,7 @@ class ToDoList extends Component {
           value={this.state.newTodo}
           />
         </form>
-        {this.state.todos.map((todo, i) => <Todo key={i} item={todo} />)}
+          {this.state.todos.map((todo, i) => <Todo key={i} item={todo} />)}
       </div>
     );
   }
